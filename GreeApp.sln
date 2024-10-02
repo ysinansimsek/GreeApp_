@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{90220D48-CA44-42F3-97FB-6143AFEE7B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeApp.Domain", "Core\GreeApp.Domain\GreeApp.Domain.csproj", "{6B8A624A-569A-43AE-869A-4AC0DC02507C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35F05AFE-9B82-4AE3-99FA-E4808BAD2C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeApp.Persistence", "GreeApp.Persistence\GreeApp.Persistence.csproj", "{AE9716AF-8F9A-4B91-986B-9820F0C36ACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E05B5C72-A654-41C1-AC1E-DAD28D3BDDF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeApp.WebApi", "Presentation\GreeApp.WebApi\GreeApp.WebApi.csproj", "{1FEEEA36-D896-47C2-B707-E4BD04CCA861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreeApp.Application", "GreeApp.Application\GreeApp.Application.csproj", "{102BF71C-2AD7-402D-82B4-BC20075878B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8A624A-569A-43AE-869A-4AC0DC02507C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8A624A-569A-43AE-869A-4AC0DC02507C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8A624A-569A-43AE-869A-4AC0DC02507C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8A624A-569A-43AE-869A-4AC0DC02507C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9716AF-8F9A-4B91-986B-9820F0C36ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9716AF-8F9A-4B91-986B-9820F0C36ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9716AF-8F9A-4B91-986B-9820F0C36ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9716AF-8F9A-4B91-986B-9820F0C36ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEEEA36-D896-47C2-B707-E4BD04CCA861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEEEA36-D896-47C2-B707-E4BD04CCA861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEEEA36-D896-47C2-B707-E4BD04CCA861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEEEA36-D896-47C2-B707-E4BD04CCA861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102BF71C-2AD7-402D-82B4-BC20075878B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102BF71C-2AD7-402D-82B4-BC20075878B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102BF71C-2AD7-402D-82B4-BC20075878B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102BF71C-2AD7-402D-82B4-BC20075878B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B8A624A-569A-43AE-869A-4AC0DC02507C} = {90220D48-CA44-42F3-97FB-6143AFEE7B33}
+		{AE9716AF-8F9A-4B91-986B-9820F0C36ACD} = {35F05AFE-9B82-4AE3-99FA-E4808BAD2C04}
+		{1FEEEA36-D896-47C2-B707-E4BD04CCA861} = {E05B5C72-A654-41C1-AC1E-DAD28D3BDDF8}
+		{102BF71C-2AD7-402D-82B4-BC20075878B8} = {90220D48-CA44-42F3-97FB-6143AFEE7B33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A0C0A72-242F-4AE5-B826-4265DC332AED}
+	EndGlobalSection
+EndGlobal
