@@ -1,15 +1,16 @@
-﻿using System;
+﻿using GreeApp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GreeApp.Domain.Entities
+namespace GreeApp.Application.Features.CQRS.Results.BrandResult
 {
-    public class Brand
+    public class GetBrandQueryResult
     {
         public int BrandId { get; set; }
         public string Name { get; set; }
-        public List<Product> Products { get; set; }    
+        public List<Product> Products { get; set; }
     }
 }

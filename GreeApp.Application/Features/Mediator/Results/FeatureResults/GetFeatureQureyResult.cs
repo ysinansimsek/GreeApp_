@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GreeApp.Domain.Entities
+namespace GreeApp.Application.Features.Mediator.Results.FeatureResults
 {
-    public class Brand
+    public class GetFeatureQureyResult
     {
-        public int BrandId { get; set; }
+        public int FeatureId { get; set; }
         public string Name { get; set; }
-        public List<Product> Products { get; set; }    
     }
 }

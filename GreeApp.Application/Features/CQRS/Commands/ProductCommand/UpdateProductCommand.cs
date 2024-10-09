@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GreeApp.Application.Features.CQRS.Commands.BannerCommand
+namespace GreeApp.Application.Features.CQRS.Commands.ProductCommand
 {
-    public class UpdateBannerCommand
+    public class UpdateProductCommand
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Url { get; set; }
+        public string Name { get; set; }
+        public string Barcode { get; set; }
         public string Description { get; set; }
     }
 }
